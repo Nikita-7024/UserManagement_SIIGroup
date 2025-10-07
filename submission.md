@@ -19,8 +19,9 @@
 1. Clone the repository :
 ```bash
 git clone https://github.com/Nikita-7024/UserManagement_SIIGroup
+cd .\UserManagement_SIIGroup\
 Install dependencies: npm install 
-npm run start:dev
+npm run start
 Import the collection: users-assessment.postman_collection.json
 Test endpoints using Postman:
 Server runs at http://localhost:3000 and and set header `Authorization` with user id (e.g., 1)
